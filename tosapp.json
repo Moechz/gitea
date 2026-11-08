@@ -73,17 +73,10 @@
       "lifecycle": "never overwritten; edit to set ROOT_URL/SSH"
     },
     {
-      "path": "data/gitea.db",
-      "purpose": "users, repositories metadata, issues and pull requests (SQLite)",
+      "path": "data",
+      "purpose": "SQLite database, repositories, avatars and attachments",
       "created": "first-run installer",
-      "growth": "grows with activity",
-      "lifecycle": "never overwritten; back it up"
-    },
-    {
-      "path": "data/repositories",
-      "purpose": "Git repositories",
-      "created": "when the first repository is created",
-      "growth": "grows with repositories",
+      "growth": "grows with repositories and activity",
       "lifecycle": "never overwritten; back it up"
     }
   ],
