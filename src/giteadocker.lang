@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "giteadocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[zh-cn]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea 是一个轻量级自托管 Git 服务，提供仓库、Issue、Pull Request、Wiki、Release、组织与网页界面，硬件要求低。本应用使用 Docker Hub 官方镜像并以非 root 用户运行；数据库、仓库与配置都保存在应用数据目录。"
+release_note = "1. 首个版本：Gitea 28.3.0，来自 Docker Hub，x86_64 + aarch64 双包，非 root。"
+important    = "打开网页完成首次安装向导，创建管理员账号与 SQLite 数据库。全部状态在 DockerAppData/giteadocker/data。SSH 克隆端口 22 未发布，请用 HTTP 克隆，或自行增加端口映射。首次运行后请把 GITEA__server__ROOT_URL（或 data/gitea/conf/app.ini 里的 ROOT_URL）设为 http://<NAS-IP>:8026/，否则克隆链接可能指向 localhost。需要 DockerEngine。卸载删除数据前请备份 data。应用通过局域网 HTTP 访问。"
+
+[zh-hk]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea 是一個輕量級自託管 Git 服務，提供倉庫、Issue、Pull Request、Wiki、Release、組織與網頁介面，硬體要求低。本應用使用 Docker Hub 官方鏡像並以非 root 使用者運行；資料庫、倉庫與設定都保存在應用資料目錄。"
+release_note = "1. 首個版本：Gitea 28.3.0，來自 Docker Hub，x86_64 + aarch64 雙包，非 root。"
+important    = "開啟網頁完成首次安裝精靈，建立管理員帳號與 SQLite 資料庫。全部狀態在 DockerAppData/giteadocker/data。SSH 複製埠 22 未發佈，請用 HTTP 複製，或自行增加埠映射。首次運行後請把 GITEA__server__ROOT_URL（或 data/gitea/conf/app.ini 裡的 ROOT_URL）設為 http://<NAS-IP>:8026/，否則複製連結可能指向 localhost。需要 DockerEngine。解除安裝刪除資料前請備份 data。應用透過局域網 HTTP 存取。"
+
+[fr-fr]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[de-de]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[it-it]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[es-es]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[hu-hu]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[ja-jp]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[ko-kr]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[pl-pl]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[ru-ru]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[tr-tr]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[pt-pt]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[ar-sa]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[cs-cz]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[he-il]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[id-id]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[nb-no]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[nl-nl]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[sv-se]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[th-th]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
+[vi-vn]
+name         = "Gitea"
+auth         = "go-gitea"
+version      = "@@VERSION@@"
+descript     = "Gitea is a lightweight self-hosted Git service. It provides repositories, issues, pull requests, wikis, releases, organizations and a web UI, and can run on modest hardware. This package runs the official Docker Hub image as a non-root container; the database, repositories and configuration stay in the application data folder."
+release_note = "1. First release: Gitea 28.3.0 from Docker Hub, x86_64 + aarch64, non-root."
+important    = "Open the web UI and complete the first-run installer to create the administrator account and the SQLite database. All state lives in DockerAppData/giteadocker/data. The SSH clone port (22) is not published; use HTTP clone, or add a port mapping if you need SSH. After the first run set GITEA__server__ROOT_URL (or ROOT_URL in data/gitea/conf/app.ini) to http://<NAS-IP>:8026/ so clone links are correct. Needs DockerEngine. Back up data before uninstalling with data removal. Plain HTTP."
+
